@@ -15,4 +15,6 @@ echo "[*] Applying dotfiles..."
 
 rsync -avh --backup --suffix=".bak" --exclude=".git" "$DOTFILES_DIR"/ "$HOME"/
 
+chmod +x dotfiles.sh
+
 echo "[*] Done."
