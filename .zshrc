@@ -1,3 +1,6 @@
+export ZSH="$HOME/.oh-my-zsh"
+source $ZSH/oh-my-zsh.sh
+
 plugins=(git)
 
 PROMPT="%n %2~ %B:)%b "
