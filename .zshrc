@@ -1,8 +1,5 @@
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
-
-
 PROMPT="%n %2~ %B:)%b "
 RPROMPT="%U %m%u"
 
