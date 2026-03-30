@@ -7,4 +7,5 @@ PROMPT="%n %2~ %B:)%b "
 RPROMPT="%U %m%u"
 
 alias tm='tmux new -As `basename $PWD`'
-alias vim=nvim;
+alias vim=nvim
+alias gafc='git status && git add . && git commit --amend --no-edit --no-verify && git push --force-with-lease --no-verify'
