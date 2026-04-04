@@ -1,4 +1,4 @@
-version = "0.21.7"
+version = "1.1.0"
 
 -- Поддержка плагинов
 local home = os.getenv("HOME")
